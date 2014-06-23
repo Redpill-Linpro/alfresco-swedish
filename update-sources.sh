@@ -43,7 +43,7 @@ mkdir -p share/META-INF/modules/editors/tiny_mce
 mv langs share/META-INF/modules/editors/tiny_mce/
 
 # Fix bug with rm.properties where swedish characters are not automatically encoded
-native2ascii share/alfresco/messages/rm_sv.properties share/alfresco/messages/rm_sv.properties
+#native2ascii share/alfresco/messages/rm_sv.properties share/alfresco/messages/rm_sv.properties
 rm -r alfresco rm
 #Create jar
 cd repo
