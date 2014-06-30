@@ -12,3 +12,8 @@
 hs_err_pid*
 
 work
+.project
+.classpath
+.settings
+repo/.gitignore
+share/.gitignore

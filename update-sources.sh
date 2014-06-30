@@ -47,10 +47,14 @@ mv langs share/META-INF/modules/editors/tiny_mce/
 rm -r alfresco rm
 #Create jar
 cd repo
+rm -r ../../../repo/src/main/resources/alfresco
+cp -r alfresco ../../../repo/src/main/resources/
 zip -r alfresco-${l}.jar META-INF alfresco
 mv alfresco-${l}.jar ../
 cd ..
 cd share
+rm -r ../../../share/src/main/resources/alfresco
+cp -r alfresco ../../../share/src/main/resources/
 zip -r share-${l}.jar META-INF alfresco
 mv share-${l}.jar ../
 cd ..
