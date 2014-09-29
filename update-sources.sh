@@ -9,7 +9,7 @@ mkdir -p ./work/alf-i18n_${l}
 
 cd ./work/alf-i18n_${l}
 
-curl -L http://www.tinymce.com/i18n/download.php?download=sv_SE > tinymce.zip
+curl 'http://www.tinymce.com/i18n3x/index.php?ctrl=export&act=zip' -H 'Content-Type: application/x-www-form-urlencoded' --data 'la%5B%5D=sv&la_export=js&pr_id=7&submitted=Download' > tinymce.zip
 
 curl -L http://crowdin.net/download/project/alfresco/sv-SE.zip > alfresco.zip
 
@@ -40,7 +40,7 @@ cp -rf rm/repo/config/alfresco/* repo/alfresco/
 cp -rf rm/share/config/alfresco/* share/alfresco/
 #TinyMCE
 mkdir -p share/META-INF/modules/editors/tiny_mce
-mv langs share/META-INF/modules/editors/tiny_mce/
+mv tinymce_language_pack/* share/META-INF/modules/editors/tiny_mce/
 
 # Fix bug with rm.properties where swedish characters are not automatically encoded
 #native2ascii share/alfresco/messages/rm_sv.properties share/alfresco/messages/rm_sv.properties
@@ -55,6 +55,7 @@ cd ..
 cd share
 rm -r ../../../share/src/main/resources/alfresco
 cp -r alfresco ../../../share/src/main/resources/
+cp -r META-INF ../../../share/src/main/resources/
 zip -r share-${l}.jar META-INF alfresco
 mv share-${l}.jar ../
 cd ..
