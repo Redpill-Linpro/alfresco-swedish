@@ -16,19 +16,22 @@ If you want to just download the translation and use it in your alfresco install
 If you are building an amp using the Alfreco Maven SDK and want to include these jars, just add the following dependencies to your pom(s).
 
 Repository translations:
+```
 <dependency>
   <groupId>org.redpill-linpro.alfresco.translations</groupId>
   <artifactId>alfresco-swedish-repo</artifactId>
   <version>5.0.0/version>
 </dependency>
+```
 
 Share translations:
+```
 <dependency>
   <groupId>org.redpill-linpro.alfresco.translations</groupId>
   <artifactId>alfresco-swedish-share</artifactId>
   <version>5.0.0</version>
 </dependency>
-
+```
 
 
 Building
