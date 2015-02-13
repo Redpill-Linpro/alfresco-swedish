@@ -1,5 +1,5 @@
-Swedish Language Pack
-=====================
+Swedish Translation of Alfresco
+===============================
 
 This language pack is backed by a crowdin project: https://crowdin.com/project/alfresco
 
