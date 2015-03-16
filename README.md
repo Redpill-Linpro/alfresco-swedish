@@ -20,7 +20,7 @@ Repository translations:
 <dependency>
   <groupId>org.redpill-linpro.alfresco.translations</groupId>
   <artifactId>alfresco-swedish-repo</artifactId>
-  <version>5.0.0/version>
+  <version>5.0.2/version>
 </dependency>
 ```
 
@@ -29,7 +29,7 @@ Share translations:
 <dependency>
   <groupId>org.redpill-linpro.alfresco.translations</groupId>
   <artifactId>alfresco-swedish-share</artifactId>
-  <version>5.0.0</version>
+  <version>5.0.2</version>
 </dependency>
 ```
 
