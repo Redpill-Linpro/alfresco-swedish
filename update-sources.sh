@@ -58,6 +58,7 @@ mv alfresco-${l}.jar ../
 cd ..
 cd share
 rm -r ../../../share/src/main/resources/alfresco
+rm -r ../../../share/src/main/resources/META-INF
 cp -r alfresco ../../../share/src/main/resources/
 cp -r META-INF ../../../share/src/main/resources/
 zip -r share-${l}.jar META-INF alfresco
