@@ -42,6 +42,10 @@ cp -rf rm/share/config/alfresco/* share/alfresco/
 mkdir -p share/META-INF/modules/editors/tiny_mce
 mv tinymce_language_pack/* share/META-INF/modules/editors/tiny_mce/
 
+#Copy in the aikau sources to the correct place to support 5.0.1 and later
+mkdir -p share/META-INF/js/aikau/1.0.8.2
+cp -rf share/META-INF/js/alfresco share/META-INF/js/aikau/1.0.8.2/
+
 # Fix bug with rm.properties where swedish characters are not automatically encoded
 #native2ascii share/alfresco/messages/rm_sv.properties share/alfresco/messages/rm_sv.properties
 rm -r alfresco rm
@@ -54,6 +58,7 @@ mv alfresco-${l}.jar ../
 cd ..
 cd share
 rm -r ../../../share/src/main/resources/alfresco
+rm -r ../../../share/src/main/resources/META-INF
 cp -r alfresco ../../../share/src/main/resources/
 cp -r META-INF ../../../share/src/main/resources/
 zip -r share-${l}.jar META-INF alfresco
