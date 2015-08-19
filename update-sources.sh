@@ -43,8 +43,25 @@ mkdir -p share/META-INF/modules/editors/tiny_mce
 mv tinymce_language_pack/* share/META-INF/modules/editors/tiny_mce/
 
 #Copy in the aikau sources to the correct place to support 5.0.1 and later
-mkdir -p share/META-INF/js/aikau/1.0.8.2
-cp -rf share/META-INF/js/alfresco share/META-INF/js/aikau/1.0.8.2/
+#mkdir -p share/META-INF/js/aikau/1.0.8.2
+#cp -rf share/META-INF/js/alfresco share/META-INF/js/aikau/1.0.8.2/
+
+cd share
+A_DIR="aikau/all/"
+SHARE=$(pwd)
+cd META-INF/js
+
+DIRS=$(find alfresco/ -type d -name 'i18n' )
+for DIR in $DIRS; do
+	mkdir -p $A_DIR/$DIR
+	cp $DIR/* $A_DIR/$DIR
+done
+	
+cd aikau
+ln -s all 1.0.8.1
+ln -s all 1.0.8.2
+cd ..
+cd ..
 
 # Fix bug with rm.properties where swedish characters are not automatically encoded
 #native2ascii share/alfresco/messages/rm_sv.properties share/alfresco/messages/rm_sv.properties
