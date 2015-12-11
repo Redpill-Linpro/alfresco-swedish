@@ -60,6 +60,7 @@ done
 cd aikau
 ln -s all 1.0.8.1
 ln -s all 1.0.8.2
+ln -s all 1.0.25.2 # EE 5.0.2.5
 cd ..
 cd ..
 
