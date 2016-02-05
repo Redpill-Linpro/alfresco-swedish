@@ -87,6 +87,14 @@ echo "Moving Share translations into maven sources tree"
 echo "Current folder: $PWD"
 cd ..
 cd share
+#First move rm stuff
+rm -r ../../../share-rm/src/main/resources/alfresco
+rm -r ../../../share-rm/src/main/resources/META-INF
+mkdir -p ../../../share-rm/src/main/resources/alfresco/messages
+mkdir -p ../../../share-rm/src/main/resources/alfresco/site-webscripts/org/alfresco
+mv alfresco/dod5015 ../../../share-rm/src/main/resources/alfresco/
+mv alfresco/messages/rm_sv.properties ../../../share-rm/src/main/resources/alfresco/messages/
+mv alfresco/site-webscripts/org/alfresco/rm ../../../share-rm/src/main/resources/alfresco/site-webscripts/org/alfresco/
 rm -r ../../../share/src/main/resources/alfresco
 rm -r ../../../share/src/main/resources/META-INF
 cp -r alfresco ../../../share/src/main/resources/
