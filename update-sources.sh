@@ -9,7 +9,8 @@ mkdir -p ./work/alf-i18n_${l}
 cd ./work/alf-i18n_${l}
 
 echo "Downloading TinyMCE"
-curl 'http://www.tinymce.com/i18n3x/index.php?ctrl=export&act=zip' -H 'Content-Type: application/x-www-form-urlencoded' --data 'la%5B%5D=sv&la_export=js&pr_id=7&submitted=Download' > tinymce.zip
+#curl 'http://www.tinymce.com/i18n3x/index.php?ctrl=export&act=zip' -H 'Content-Type: application/x-www-form-urlencoded' --data 'la%5B%5D=sv&la_export=js&pr_id=7&submitted=Download' > tinymce.zip
+curl -L http://archive.tinymce.com/i18n/download.php?download=sv_SE > tinymce.zip
 
 echo "Downloading Alfresco translations from Crowdin"
 curl -L http://crowdin.net/download/project/alfresco/sv-SE.zip > alfresco.zip
@@ -48,7 +49,7 @@ cp -rf rm/share/config/alfresco/* share/alfresco/
 echo "Rearranging TinyMCE translations"
 #TinyMCE
 mkdir -p share/META-INF/modules/editors/tiny_mce
-mv tinymce_language_pack/* share/META-INF/modules/editors/tiny_mce/
+mv langs share/META-INF/modules/editors/tiny_mce/
 
 echo "Rearranging Aikau translations"
 cd share
