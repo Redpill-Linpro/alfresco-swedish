@@ -69,6 +69,7 @@ ln -s all 1.0.8.1
 ln -s all 1.0.8.2
 ln -s all 1.0.25.2 # EE 5.0.2.5
 ln -s all 1.0.52 # EE 5.0.3
+ln -s all 1.0.39.5 # CE 5.1 201602
 cd ../../../../
 
 echo "Moving repository translations into maven sources tree"
