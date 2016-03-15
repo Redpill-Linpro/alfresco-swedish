@@ -38,6 +38,7 @@
     <module>repo-rm</module>
     <module>share</module>
     <module>share-rm</module>
+    <module>mail</module>
   </modules>
 
   <repositories>
