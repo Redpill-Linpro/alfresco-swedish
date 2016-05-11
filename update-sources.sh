@@ -13,23 +13,25 @@ echo "Downloading TinyMCE"
 curl -L http://archive.tinymce.com/i18n/download.php?download=sv_SE > tinymce.zip
 
 echo "Downloading Alfresco translations from Crowdin"
-curl -L http://crowdin.net/download/project/alfresco/sv-SE.zip > alfresco.zip
+#curl -vL https://crowdin.net/download/project/alfresco/sv-SE.zip > alfresco.zip
+cp ../../sv-SE.zip alfresco.zip
 
 echo "Unzipping TinyMCE translations"
 unzip tinymce.zip 
 echo "Unzipping Alfresco translations"
 unzip alfresco.zip
+#exit
 
 echo "Renaming translated files to have country postfix"
-for f in `find alfresco -type f`; do
+for f in `find alfresco -type f | grep -v _${l}.properties`; do
   mv $f ${f%.properties}_${l}.properties;
 done;
 
-for f in `find share -type f`; do
+for f in `find share -type f | grep -v _${l}.properties`; do
   mv $f ${f%.properties}_${l}.properties;
 done;
 
-for f in `find rm -type f`; do
+for f in `find rm -type f | grep -v _${l}.properties`; do
   mv $f ${f%.properties}_${l}.properties;
 done;
 
