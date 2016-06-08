@@ -20,3 +20,5 @@ share/.gitignore
 repo-rm/.gitignore
 share-rm/.gitignore
 #share/src/main/resources/META-INF/js/aikau/*
+/mail/target/
+*.orig
