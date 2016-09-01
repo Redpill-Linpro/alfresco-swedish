@@ -41,7 +41,9 @@ If you want to build the language pack yourself using the latest translations fr
 (Prerequisite is Linux OS + maven)
 
 1. Clone this repository
-2. ./update-sources.sh
-3. mvn clean install
+2. Create a folder called "work"
+3. Download built source files from Crowdin at http://translation.alfresco.com/
+4. Run ./update-sources.sh
+5. mvn clean install
 
 After the above steps has been done you will find the jar files containing the translation in the target folders of each submodule and in your local maven repository.
