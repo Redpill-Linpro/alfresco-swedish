@@ -11,14 +11,15 @@
   <artifactId>alfresco-swedish-mail</artifactId>
   <packaging>jar</packaging>
   <name>Alfresco Swedish Translation - Mail</name>
-  <version>5.1.1</version>
+  <version>5.1.2</version>
 
   <properties>
     <alfresco.groupId>org.alfresco</alfresco.groupId>
-    <alfresco.version>5.1.e</alfresco.version>
+    <alfresco.version>5.1.g</alfresco.version>
     <testframework.version>2.2.0</testframework.version>
     <java.source.version>1.8</java.source.version>
     <java.target.version>1.8</java.target.version>
+    <testframework.version>2.2.0</testframework.version>
     <alfresco.client.war>alfresco</alfresco.client.war>
     <tomcat.home>${tomcat.repo.home}</tomcat.home>
     <tomcat.port>${tomcat.repo.port}</tomcat.port>
@@ -28,7 +29,19 @@
   </properties>
 
   <dependencies>
-
+    <dependency>
+      <groupId>${alfresco.groupId}</groupId>
+      <artifactId>alfresco-repository</artifactId>
+      <version>${alfresco.version}</version>
+      <classifier>h2scripts</classifier>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
     <dependency>
       <groupId>${alfresco.groupId}</groupId>
       <artifactId>alfresco-repository</artifactId>
@@ -62,6 +75,11 @@
       <artifactId>httpclient</artifactId>
       <version>4.1.1</version>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.redpill-linpro.alfresco</groupId>
+      <artifactId>alfresco-test-repo</artifactId>
+      <version>${testframework.version}</version>
     </dependency>
   </dependencies>
 
