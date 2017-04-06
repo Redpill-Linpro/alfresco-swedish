@@ -66,7 +66,7 @@
                                              </#if>
                                              
                                              <p>
-                                                <#if (args.workflowDueDate)??>Due:&nbsp;&nbsp;<b>${args.workflowDueDate?date?string.full}</b><br></#if>
+                                                <#if (args.workflowDueDate)??>Förfaller:&nbsp;&nbsp;<b>${args.workflowDueDate?date?string.full}</b><br></#if>
                                                 <#if (args.workflowPriority)??>
                                                    Prioritet:&nbsp;&nbsp;
                                                    <b>
