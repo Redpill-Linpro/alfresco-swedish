@@ -49,3 +49,5 @@ cp -rf ./work/repo-rm-sv-SE/* ./repo-rm/src/main/resources/
 cp -rf ./work/share-sv-SE/* ./share/src/main/resources/
 cp -rf ./work/share-rm-sv-SE/* ./share-rm/src/main/resources/
 
+echo "Fixing missing aikau versions"
+cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.99 ./share/src/main/resources/META-INF/js/aikau/1.0.101.3
