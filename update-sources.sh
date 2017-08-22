@@ -51,3 +51,9 @@ cp -rf ./work/share-rm-sv-SE/* ./share-rm/src/main/resources/
 
 #echo "Fixing missing aikau versions"
 #cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.99 ./share/src/main/resources/META-INF/js/aikau/1.0.101.3
+
+echo "Making manual injections"
+#Missing translations for workflow tasks: https://issues.alfresco.com/jira/browse/ALF-21841
+#begin
+cat ./repo-manual-additions/src/main/resources/alfresco/workflow/workflow-messages_sv.properties >> ./repo/src/main/resources/alfresco/workflow/workflow-messages_sv.properties
+#end
