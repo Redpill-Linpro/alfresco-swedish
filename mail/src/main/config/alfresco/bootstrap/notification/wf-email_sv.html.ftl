@@ -37,7 +37,7 @@
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
                                                       <#if args.workflowPooled == true>
-                                                         Ny poolad uppgift
+                                                         Ny gruppuppgift
                                                       <#else>
                                                          Du har blivit tilldelad en uppgift
                                                       </#if>
@@ -49,7 +49,7 @@
                                              </tr>
                                           </table>
                                           <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
-                                             <p>Hi,</p>
+                                             <p>Hej,</p>
 
                                              <p>
                                                 <#if args.workflowPooled == true>
@@ -59,21 +59,21 @@
                                                 </#if>
                                              </p>
                                              
-                                             <p><b>"${args.workflowTitle}"</b></p>
+                                             <p><b>${args.workflowTitle?html}</b></p>
                                              
                                              <#if (args.workflowDescription)??>                                             
-                                             	<p>${args.workflowDescription}</p>                                             
+                                             	<p>${args.workflowDescription?html}</p>                                             
                                              </#if>
                                              
                                              <p>
-                                                <#if (args.workflowDueDate)??>Due:&nbsp;&nbsp;<b>${args.workflowDueDate?date?string.full}</b><br></#if>
+                                                <#if (args.workflowDueDate)??>Förfaller:&nbsp;&nbsp;<b>${args.workflowDueDate?date?string.full}</b><br></#if>
                                                 <#if (args.workflowPriority)??>
                                                    Prioritet:&nbsp;&nbsp;
                                                    <b>
                                                    <#if args.workflowPriority == 3>
                                                       Låg
                                                    <#elseif args.workflowPriority == 2>
-                                                      Medium
+                                                      Medel
                                                    <#else>
                                                       Hög
                                                    </#if>
@@ -122,7 +122,7 @@
                                                 <p>Klicka på denna länk för att visa uppgiften:</p>
                                                 <p><a href="${shareUrl}/page/task-details?taskId=${args.workflowId}">${shareUrl}/page/task-details?taskId=${args.workflowId}</a>
                                              <#else>
-                                                <p>Klicka på ednna länk för att redigera uppgiften:</p>
+                                                <p>Klicka på denna länk för att redigera uppgiften:</p>
                                                 <p><a href="${shareUrl}/page/task-edit?taskId=${args.workflowId}">${shareUrl}/page/task-edit?taskId=${args.workflowId}</a>
                                              </#if>
                                              
