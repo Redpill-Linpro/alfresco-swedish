@@ -11,7 +11,7 @@
   <artifactId>alfresco-swedish-mail</artifactId>
   <packaging>jar</packaging>
   <name>Alfresco Swedish Translation - Mail</name>
-  <version>5.2.0</version>
+  <version>5.2.1</version>
 
   <properties>
     <alfresco.groupId>org.alfresco</alfresco.groupId>
@@ -80,6 +80,7 @@
       <groupId>org.redpill-linpro.alfresco</groupId>
       <artifactId>alfresco-test-repo</artifactId>
       <version>${testframework.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
