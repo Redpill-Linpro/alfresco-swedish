@@ -52,6 +52,12 @@ cp -rf ./work/share-rm-sv-SE/* ./share-rm/src/main/resources/
 echo "Fixing missing aikau versions"
 #Keep until 1.0.102 is in the official build
 cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.102
+# community 6.0.2b
+cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.12
+#1.0.101.13 for ACS6.0
+cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.13
+#1.0.101.19 for ACS6.0.1.2
+cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.19
 
 echo "Making manual injections"
 #Missing translations for workflow tasks: https://issues.alfresco.com/jira/browse/ALF-21841

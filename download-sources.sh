@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir work
 rm work/*.jar
 echo "Downloading alfresco-sv-SE.jar"
 curl -o work/alfresco-sv-SE.jar http://alf-trans.ossportal.org/files/alfresco-sv-SE.jar
