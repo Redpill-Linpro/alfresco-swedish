@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f668780e-1902-4203-8977-e26a66fc0956" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/accessibility/i18n/AccessibilityMenu_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/buttons/i18n/AlfButton_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/charts/ccc/i18n/PieChart_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/core/i18n/TemporalUtils_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/creation/i18n/WidgetConfig_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/dashlets/i18n/Dashlet_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/dashlets/i18n/SiteContentReportDashlet_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/dashlets/i18n/TopSiteContributorReportDashlet_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/debug/i18n/CoreDataDebugger_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/debug/i18n/WidgetInfo_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/dialogs/i18n/AlfDialog_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/dnd/i18n/DroppedItemWrapper_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfBreadcrumbTrail_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfCreateContentMenuBarPopup_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfCreateTemplateContentMenu_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfDocumentFilter_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfDocumentFilters_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfDocumentList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfSelectDocumentListItems_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfSitesList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfTagFilters_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/AlfViewSelectionGroup_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/UploadButton_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/ViewPreferencesGroup_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/_AlfCreateContentMenuItemMixin_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/documentlibrary/i18n/_AlfDndDocumentUploadMixin_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/editors/i18n/TinyMCE_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/footer/i18n/AlfShareFooter_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/footer/i18n/AlfStickyFooter_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/BaseFormControl_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/FilePicker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/FormControlValidationMixin_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/MultiSelect_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/MultipleEntryCreator_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/MultipleEntryElement_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/MultipleKeyValuePairElement_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/Picker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/controls/i18n/SitePicker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/creation/i18n/FormCreation_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/creation/i18n/Publication_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/forms/i18n/Form_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/AlfMenuBar_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/AlfSitesMenu_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/CurrentUserStatus_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/LicenseWarning_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/PopupSearch_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/SearchBox_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/header/i18n/UserMenu_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/html/i18n/FileInput_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/html/i18n/Label_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/layout/i18n/StickyPanel_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/i18n/AlfFilteredList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/i18n/AlfList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/i18n/Paginator_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/i18n/ResultsPerPageGroup_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/utilities/i18n/FilterSummary_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/views/i18n/AlfListView_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/views/i18n/EmptyDocumentList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/views/layouts/i18n/Carousel_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/lists/views/layouts/i18n/HeaderCell_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/logo/i18n/Logo_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/menus/i18n/AlfMenuBarSelectItems_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/menus/i18n/AlfMenuBarToggle_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/navigation/i18n/CategoryTree_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/navigation/i18n/Links_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/navigation/i18n/Tree_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/notifications/i18n/ProgressIndicator_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/pickers/i18n/ContainerListPicker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/pickers/i18n/PickedItems_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/pickers/i18n/Picker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/pickers/i18n/PropertyPicker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/pickers/i18n/SitePicker_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/preview/PdfJs/i18n/PdfJs_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/preview/i18n/AlfDocumentPreview_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/prototyping/i18n/Preview_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Actions_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/ActivitySummary_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Boolean_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Category_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/CommentsList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Comments_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Date_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/EditableComment_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Favourite_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/FileType_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Indicators_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/InlineEditProperty_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Like_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/LockedBanner_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/MoreInfo_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Progress_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Property_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/PublishingDropDownMenu_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/QuickShare_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/ReadOnlyTag_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Reorder_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/SearchThumbnail_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Size_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Tags_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Thumbnail_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/ToggleStateActions_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/Toggle_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/_ActionsMixin_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/renderers/i18n/_XhrActionsMixin_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/reports/i18n/SiteContentReport_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/reports/i18n/TopSiteContributorReport_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/search/i18n/AlfSearchList_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/search/i18n/AlfSearchResult_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/search/i18n/AlternativeSearchLabel_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/search/i18n/FacetFilter_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/search/i18n/SearchThumbnailMixin_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/actions/i18n/ChangeTypeService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/actions/i18n/CopyMoveService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/actions/i18n/CreateTemplateContentService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/actions/i18n/ManageAspectsService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/actions/i18n/WorkflowService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/ActionService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/CloudSyncService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/ContentService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/CrudService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/DataListService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/DialogService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/DocumentService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/FileUploadService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/FormsRuntimeService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/LoggingService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/NodePreviewService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/NotificationService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/PageService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/ReportService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/SiteService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/UploadService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/UserService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/services/i18n/_BaseUploadService_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/upload/i18n/AlfUploadDisplay_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/upload/i18n/UploadHistory_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/upload/i18n/UploadMonitor_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau/1.0.67.11/alfresco/upload/i18n/UploadTarget_sv.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mail/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo-rm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repo-rm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo-rm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/repo-rm/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share-rm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/share-rm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share-rm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/share-rm/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/share/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/share/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QgJCjTzWDHgS18xaA7Fnl17kHc" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/share/src/main/resources/META-INF/js/aikau" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f668780e-1902-4203-8977-e26a66fc0956" name="Default Changelist" comment="" />
+      <created>1568186179171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568186179171</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/support/5.1.x" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/support/5.1.x" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
