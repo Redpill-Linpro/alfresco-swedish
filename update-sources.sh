@@ -58,6 +58,11 @@ cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/r
 cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.13
 #1.0.101.19 for ACS6.0.1.2
 cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.19
+#1.0.101.16 for GS 3.1
+cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.16
+#1.0.104 for ACS 6.1.0.5
+cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.104
+
 
 echo "Making manual injections"
 #Missing translations for workflow tasks: https://issues.alfresco.com/jira/browse/ALF-21841
