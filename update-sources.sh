@@ -1,39 +1,20 @@
 #!/bin/bash
 
-if [ ! -f "work/alfresco-sv-SE.jar" ]
+if [ ! -f "work/sv-SE.zip" ]
   then
-    echo "Error: Source file does not exist: work/alfresco-sv-SE.jar"
-    exit 0
-fi
-
-if [ ! -f "work/repo-rm-sv-SE.jar" ]
-  then
-    echo "Error: Source file does not exist: work/repo-rm-sv-SE.jar"
-    exit 0
-fi
-
-if [ ! -f "work/share-rm-sv-SE.jar" ]
-  then
-    echo "Error: Source file does not exist: work/share-rm-sv-SE.jar"
-    exit 0
-fi
-
-if [ ! -f "work/share-sv-SE.jar" ]
-  then
-    echo "Error: Source file does not exist: work/share-sv-SE.jar"
+    echo "Error: Source file does not exist: work/sv-SE.zip"
     exit 0
 fi
 
 echo "Extracting language packs"
 
 rm -rf ./work/alfresco-sv-SE
-unzip ./work/alfresco-sv-SE.jar -d ./work/alfresco-sv-SE
 rm -rf ./work/repo-rm-sv-SE
-unzip ./work/repo-rm-sv-SE.jar -d ./work/repo-rm-sv-SE
 rm -rf ./work/share-rm-sv-SE
-unzip ./work/share-rm-sv-SE.jar -d ./work/share-rm-sv-SE
 rm -rf ./work/share-sv-SE
-unzip ./work/share-sv-SE.jar -d ./work/share-sv-SE
+rm -rf ./work/sv-SE
+unzip ./work/sv-SE.zip -d ./work/sv-SE
+
 
 echo "Clearing out old checked in language packs"
 
@@ -44,25 +25,51 @@ rm -rf ./share-rm/src/main/resources/*
 
 echo "Updating all source files"
 
-cp -rf ./work/alfresco-sv-SE/* ./repo/src/main/resources/
-cp -rf ./work/repo-rm-sv-SE/* ./repo-rm/src/main/resources/
-cp -rf ./work/share-sv-SE/* ./share/src/main/resources/
-cp -rf ./work/share-rm-sv-SE/* ./share-rm/src/main/resources/
+#Alfresco
+cp -rf ./work/sv-SE/5.2/alfresco ./repo/src/main/resources/
+cp -rf ./work/sv-SE/5.2/google-docs/repo/alfresco/* ./repo/src/main/resources/alfresco/
+#Share
+cp -rf ./work/sv-SE/5.2/share/alfresco ./share/src/main/resources/
+cp -rf ./work/sv-SE/5.2/google-docs/share/alfresco/* ./share/src/main/resources/alfresco/
+mkdir ./share/src/main/resources/META-INF
+cp -rf ./work/sv-SE/5.2/share/META-INF/js ./share/src/main/resources/META-INF/
+#Aikau
+mkdir -p ./share/src/main/resources/alfresco/site-webscripts/org/alfresco/aikau/webscript/libs
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/webscript-libs/ ./share/src/main/resources/alfresco/site-webscripts/org/alfresco/aikau/webscript/libs/
+mkdir ./share/src/main/resources/META-INF/js/aikau
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.101.3/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.101.3/
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.101.12/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.101.12/
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.101.13/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.101.13/
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.101.16/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.101.16/
+# 1.0.101.19 - 5.2.6
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.101.19/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.101.19/
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.102/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.102/
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.104/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.104/
 
-echo "Fixing missing aikau versions"
-#Keep until 1.0.102 is in the official build
-cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.102
-# community 6.0.2b
-cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.12
-#1.0.101.13 for ACS6.0
-cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.13
-#1.0.101.19 for ACS6.0.1.2
-cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.19
-#1.0.101.16 for GS 3.1
-cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.101.16
-#1.0.104 for ACS 6.1.0.5
-cp -rf ./share/src/main/resources/META-INF/js/aikau/1.0.101.3 ./share/src/main/resources/META-INF/js/aikau/1.0.104
 
+
+
+#RM
+cp -rf ./work/sv-SE/5.2/rm/repo/config/alfresco ./repo-rm/src/main/resources/
+cp -rf ./work/sv-SE/5.2/rm/share/config/alfresco ./share-rm/src/main/resources/
+mkdir ./share-rm/src/main/resources/META-INF
+cp -rf ./work/sv-SE/5.2/rm/share/source/web/js ./share-rm/src/main/resources/META-INF/
+
+echo "Extracting TinyMCE"
+rm -rf ./work/tinymce_sv-SE
+unzip ./work/tinymce_sv-SE.zip -d ./work/tinymce_sv-SE
+
+echo "Updating source files with TinyMCE translation"
+mkdir -p ./share/src/main/resources/META-INF/modules/editors/tinymce/langs
+cp -rf ./work/tinymce_sv-SE/langs/sv_SE.js ./share/src/main/resources/META-INF/modules/editors/tinymce/langs/
+cp -rf ./work/tinymce_sv-SE/langs/sv_SE.js ./share/src/main/resources/META-INF/modules/editors/tinymce/langs/sv.js
 
 echo "Making manual injections"
 #Missing translations for workflow tasks: https://issues.alfresco.com/jira/browse/ALF-21841
