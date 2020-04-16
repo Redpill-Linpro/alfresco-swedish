@@ -11,7 +11,7 @@
   <artifactId>alfresco-swedish-mail</artifactId>
   <packaging>jar</packaging>
   <name>Alfresco Swedish Translation - Mail</name>
-  <version>6.2.0-SNAPSHOT</version>
+  <version>6.2.0</version>
 
   <properties>
     <alfresco.groupId>org.alfresco</alfresco.groupId>
