@@ -20,7 +20,7 @@ Repository translations:
 <dependency>
   <groupId>org.redpill-linpro.alfresco.translations</groupId>
   <artifactId>alfresco-swedish-repo</artifactId>
-  <version>6.2.3/version>
+  <version>6.2.4/version>
 </dependency>
 ```
 
@@ -29,7 +29,7 @@ Share translations:
 <dependency>
   <groupId>org.redpill-linpro.alfresco.translations</groupId>
   <artifactId>alfresco-swedish-share</artifactId>
-  <version>6.2.3</version>
+  <version>6.2.4</version>
 </dependency>
 ```
 
@@ -42,7 +42,7 @@ If you want to build the language pack yourself using the latest translations fr
 
 1. Clone this repository
 2. Create a folder called "work"
-3. Download built source files from Crowdin at http://translation.alfresco.com/
+3. Download built source files from Crowdin with the ./download-sources.sh script
 4. Run ./update-sources.sh
 5. mvn clean install
 
