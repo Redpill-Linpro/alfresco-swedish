@@ -61,6 +61,9 @@ cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resou
 # 1.0.119  7.2.0
 mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.119/
 cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.119/
+# 1.0.120  7.2.0
+mkdir ./share/src/main/resources/META-INF/js/aikau/1.0.119/
+cp -rf ./work/sv-SE/5.2/aikau/src/main/resources/alfresco ./share/src/main/resources/META-INF/js/aikau/1.0.120/
 
 
 
